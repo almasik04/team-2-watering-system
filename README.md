@@ -27,4 +27,4 @@
 * `README.md` — общая информация о проекте (этот файл).
 
 ## 6. Ссылки
-* Доска задач GitHub Projects: [https://github.com/almasik04/team-2-watering-system%5C]
+* Доска задач GitHub Projects: https://github.com/almasik04/team-2-watering-system
