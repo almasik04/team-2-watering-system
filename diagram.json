@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "PR-231 Team 2",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-pi-pico", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-ssd1306", "id": "oled", "top": -100, "left": 50, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 100, "left": -100, "attrs": { "label": "Humidity Zone 1" } },
+    { "type": "wokwi-ds1307", "id": "rtc", "top": -100, "left": -50, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "oled:SDA", "blue", [] ],
+    [ "pico:GP1", "oled:SCL", "yellow", [] ],
+    [ "pico:GP0", "rtc:SDA", "blue", [] ],
+    [ "pico:GP1", "rtc:SCL", "yellow", [] ],
+    [ "pico:3V3", "pot1:VCC", "red", [] ],
+    [ "pico:GND.8", "pot1:GND", "black", [] ],
+    [ "pico:GP26", "pot1:SIG", "green", [] ]
+  ]
+}
