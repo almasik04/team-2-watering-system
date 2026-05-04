@@ -3,7 +3,7 @@ import machine
 import utime
 
 print("SMART WATERING SYSTEM: READY")
-# Алмас лох
+ 
 # Конфигурация пинов согласно заданию[span_5](start_span)[span_5](end_span)
 # I2C для OLED и RTC: GP0 (SDA), GP1 (SCL)
 # Потенциометры (датчики влажности): GP26, GP27, GP28
